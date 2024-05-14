@@ -1,0 +1,17 @@
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\ParkHub.exe
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\ParkHub.deps.json
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\ParkHub.runtimeconfig.json
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\ParkHub.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\ParkHub.pdb
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.AssemblyInfoInputs.cache
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.AssemblyInfo.cs
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\refint\ParkHub.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.pdb
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.genruntimeconfig.cache
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ref\ParkHub.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.csproj.AssemblyReference.cache
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.csproj.Up2Date

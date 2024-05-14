@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "n2Oz2TPXV/KKJJqxzy783I5cgvw2I3FZDfYb+pJiRKDni/yCfnSuQxCyLseRSetYSCRPGtnaiqIkJaxb8n6dbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\paulo\\OneDrive\\Documentos\\Aulas-Projetos\\Projetos\\ParkHub\\ParkHub\\ParkHub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\paulo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\paulo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.18\\microsoft.netcore.app.host.win-x64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
