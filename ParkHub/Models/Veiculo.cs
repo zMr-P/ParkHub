@@ -16,7 +16,11 @@ namespace ParkHub.Models
                 {
                     if (value.Length >= 7 && value.Length <= 8)
                     {
-                        if (value.Length == 8 && value.Contains("-") || value.Length == 7)
+                        if (value.Length == 8 && value.Contains("-"))
+                        {
+                            _placa = value;
+                        }
+                        else if (value.Length == 7 && !value.Contains("-"))
                         {
                             _placa = value;
                         }

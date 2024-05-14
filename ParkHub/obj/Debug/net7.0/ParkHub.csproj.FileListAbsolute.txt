@@ -15,3 +15,4 @@ C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\D
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.csproj.AssemblyReference.cache
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.csproj.Up2Date
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHub\obj\Debug\net7.0\ParkHub.sourcelink.json
