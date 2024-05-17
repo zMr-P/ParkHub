@@ -26,12 +26,12 @@ namespace ParkHub.Models
                         }
                         else
                         {
-                            throw new ArgumentException("Verifique a ortografia da placa.");
+                            throw new ArgumentException("\nVerifique a ortografia da placa.");
                         }
                     }
                     else
                     {
-                        throw new InvalidOperationException("Placa está incorreta.");
+                        throw new ArgumentException("\nPlaca está incorreta.");
                     }
                 }
                 catch (Exception ex)

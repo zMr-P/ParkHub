@@ -103,3 +103,4 @@ C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHubTests\
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHubTests\ParkHubTests\obj\Debug\net7.0\ParkHubTests.pdb
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHubTests\ParkHubTests\obj\Debug\net7.0\ParkHubTests.genruntimeconfig.cache
 C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHubTests\ParkHubTests\obj\Debug\net7.0\ref\ParkHubTests.dll
+C:\Users\paulo\OneDrive\Documentos\Aulas-Projetos\Projetos\ParkHub\ParkHubTests\ParkHubTests\obj\Debug\net7.0\ParkHubTests.sourcelink.json

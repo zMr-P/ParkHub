@@ -1,19 +1,18 @@
-﻿using Newtonsoft.Json;
-using System.Diagnostics;
-
+﻿
 namespace ParkHub.Models
 {
     public class Estacionamento
     {
         public decimal ValorHora { get; set; }
-        public Stopwatch? TempoDecorrido { get; set; }
         public List<Veiculo> VeiculosEstacionados { get; set; }
-        public int Vagas { get; set; }
-        public StatusVagas Status { get; set; }
+        public Veiculo NovoVeiculo { get; set; }
+        public Vagas[] Vagas { get; set; }
 
-        public Estacionamento()
+        public Estacionamento(int quantidadeVagas)
         {
             VeiculosEstacionados = new List<Veiculo>();
+            Vagas = new Vagas[quantidadeVagas];
+            NovoVeiculo = new("", "", "");
         }
 
         public void AdicionarVeiculo(Veiculo veiculo)
@@ -24,14 +23,25 @@ namespace ParkHub.Models
         {
             VeiculosEstacionados.Remove(veiculo);
         }
-        public void ListarVeiculos()
+        public void ListarVeiculos(int quantidadeVagas, Vagas[] vagas)
         {
             if (VeiculosEstacionados.Count > 0)
             {
-                foreach (var veiculin in VeiculosEstacionados)
+                for (int i = 0; i < quantidadeVagas; i++)
                 {
-                    var veiculo = JsonConvert.SerializeObject(veiculin, Formatting.Indented);
-                    Console.WriteLine(veiculo);
+                    if (vagas[i] != null)
+                    {
+                        foreach (var veiculin in VeiculosEstacionados)
+                        {
+
+                            if (veiculin.Placa != "" && veiculin.Placa != null && veiculin.Placa == vagas[i].VeiculoEstacionado.Placa)
+                            {
+                                Console.WriteLine($"{Vagas[i]}");
+                                Console.WriteLine($"Local estacionado: {i}\n");
+                            }
+
+                        }
+                    }
                 }
             }
             else
@@ -41,9 +51,3 @@ namespace ParkHub.Models
         }
     }
 }
-public enum StatusVagas : int
-{
-    LocalVago = 0,
-    VeiculoEstacionado = 1
-}
-

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParkHubTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf4291dee2f52f0664e3e3633608e3b758aa0827")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParkHubTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParkHubTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

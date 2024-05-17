@@ -3,14 +3,15 @@ using ParkHub.Models;
 
 namespace ParkHubTests
 {
-    public class EstacionamentoTestes
+    public class EstacionamentoTests
     {
         private readonly Estacionamento _estacionamento;
         private readonly Veiculo _veiculoTeste;
-        public EstacionamentoTestes()
+        public EstacionamentoTests()
         {
-            _estacionamento = new();
+            _estacionamento = new(2);
             _veiculoTeste = new Veiculo("Minha", "Sonhada", "Vaga");
+            
         }
 
         [Fact]
@@ -54,7 +55,11 @@ namespace ParkHubTests
         [Fact]
         public void NaoDeveListarVeiculosERetornarExcecao()
         {
-            Assert.Throws<ArgumentNullException>(_estacionamento.ListarVeiculos);
+            int quantidadeVagas = 5;
+            _estacionamento.VeiculosEstacionados.Clear();
+
+            Assert.Throws<ArgumentNullException>(() => _estacionamento.ListarVeiculos(quantidadeVagas, _estacionamento.Vagas));
         }
+
     }
 }
