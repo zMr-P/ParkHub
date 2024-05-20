@@ -87,29 +87,48 @@ namespace ParkHub
                                 string plca = Console.ReadLine();
 
                                 var veiculin = estacaoDeVeiculos.VeiculosEstacionados.Find(x => x.Placa == plca);
-                                var vaguinha = Array.IndexOf(estacaoDeVeiculos.Vagas, veiculin.Placa);
 
-                                estacaoDeVeiculos.VeiculosEstacionados.Remove(veiculin);
-
-                                if (!estacaoDeVeiculos.VeiculosEstacionados.Contains(veiculin))
+                                if (veiculin != null)
                                 {
-                                    Console.WriteLine("Veículo removido com Sucesso");
-                                    Console.ReadKey();
-                                    Console.Clear();
-
-                                    estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Stop();
-                                    decimal valorPendente = estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed.Hours;
-
-                                    valorPendente *= estacaoDeVeiculos.ValorHora;
-
-                                    if (valorPendente < 1)
+                                    int vaguinha = 0;
+                                    for (int i = 0; i < totalVagas; i++)
                                     {
-                                        valorPendente = estacaoDeVeiculos.ValorHora;
+                                        if (estacaoDeVeiculos.Vagas[i].VeiculoEstacionado == veiculin)
+                                        {
+                                            vaguinha = i;
+                                        }
                                     }
 
-                                    Console.WriteLine($"Tempo estacionado: {estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed}\n");
-                                    Console.WriteLine($"Valor à Pagar: {valorPendente:C}");
-                                    estacaoDeVeiculos.Vagas[vaguinha].Status = StatusVagas.LocalVago;
+                                    estacaoDeVeiculos.VeiculosEstacionados.Remove(veiculin);
+
+                                    if (!estacaoDeVeiculos.VeiculosEstacionados.Contains(veiculin))
+                                    {
+                                        Console.WriteLine("Veículo removido com Sucesso");
+                                        Console.ReadKey();
+                                        Console.Clear();
+
+
+                                        decimal valorPendente = estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed.Hours;
+
+                                        valorPendente *= estacaoDeVeiculos.ValorHora;
+
+                                        if (valorPendente < 1)
+                                        {
+                                            valorPendente = estacaoDeVeiculos.ValorHora;
+                                        }
+                                        var tempoFormatado = $"{estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed.Hours:D2}:" +
+                                            $"{estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed.Minutes:D2}:" +
+                                            $"{estacaoDeVeiculos.Vagas[vaguinha].TempoEstacionado.Elapsed.Seconds:D2}";
+
+                                        Console.WriteLine($"Tempo estacionado: {tempoFormatado}\n");
+                                        Console.WriteLine($"Valor à Pagar: {valorPendente:C}");
+                                        estacaoDeVeiculos.Vagas[vaguinha].Status = StatusVagas.LocalVago;
+                                        Console.ReadKey();
+                                    }
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Verifique a ortografia da placa!");
                                     Console.ReadKey();
                                 }
                                 break;
